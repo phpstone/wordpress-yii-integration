@@ -1,7 +1,7 @@
 <?php
 define('WP_USE_THEMES', true);
 $wp_did_header = true;
-require_once('blog/wp-load.php');
+require_once('wordpress/wp-load.php');
  
 require_once(dirname(__FILE__) . '/protected/components/ExceptionHandler.php');
 $router = new ExceptionHandler();
